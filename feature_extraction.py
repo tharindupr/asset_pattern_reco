@@ -2,10 +2,15 @@ from python_speech_features import mfcc
 from python_speech_features import logfbank
 import scipy.io.wavfile as wav
 
-(rate,sig) = wav.read("Rumbles/B09h47m03s11apr2007y_RUM_367.09713___377.83901.wav")
-mfcc_feat = mfcc(sig,rate,winlen=0.5)
-fbank_feat = logfbank(sig,rate)
 
 
-print len(mfcc_feat)
-print len(mfcc_feat[0])
+def extract_features(wavefile,winlen):
+    (rate,sig) = wav.read(wavefile)
+    data=sig.T
+    #checking the audio is dual channel or single
+    if(len(data)==2):
+        mfcc_feat = mfcc(data[0],rate,winlen,winstep=1,highfreq=300)
+    else:
+        mfcc_feat = mfcc(data.T,rate,winlen,winstep=1,highfreq=300)
+        
+    return mfcc_feat
