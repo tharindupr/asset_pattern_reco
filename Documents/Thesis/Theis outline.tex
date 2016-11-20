@@ -1,0 +1,197 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{amsmath}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+%border spacing
+\geometry{
+ a4paper,
+ lmargin = 1in,
+ rmargin = 1in,
+ tmargin = 1in,
+ bmargin = 1in 
+ }
+ 
+%line spacing
+\renewcommand{\baselinestretch}{1.5}  
+
+\begin{document} 
+
+\begin{titlepage}
+	
+	\centering
+	\renewcommand{\baselinestretch}{1.7}\normalsize
+	
+	{\fontsize{1cm}{1.2em}\selectfont \scshape Elephant detection and localization using infrasound}
+	
+	\vspace*{2\baselineskip}	
+		
+
+	\underline{\fontsize{0.8cm}{1.2em}\selectfont \scshape Outline of the thesis}
+	\renewcommand{\baselinestretch}{1.25}\normalsize
+	
+	\vspace*{2\baselineskip}
+	
+	{by}
+	
+	\vspace*{0.3\baselineskip}
+	{\Large K.K.T.P Ranathunga}
+	\vspace*{0.3\baselineskip}
+	
+	{\itshape (Registration No : 2012/CS/112, Index No : 12001122)}
+	
+	{\normalsize tharindu.prf@gmail.com}
+	
+	\vspace*{2\baselineskip}
+	
+	\normalsize  {{Submitted in partial fulfillment}
+		
+		{Of the requirements of the}
+		
+		{B.Sc in Computer Science 4th Year Individual Project}
+		
+		{(SCS4124)}}
+	
+	\vspace*{2\baselineskip}
+	
+	\includegraphics[scale=0.1]{ucsc.png}
+	
+	\vfill    
+	
+	{Supervised by}
+	
+	\vspace*{0.3\baselineskip}
+	
+	{\Large Dr. Chamath Keppitiyagama}
+	
+
+	
+	%  \begin{small}
+	%  {BSc (Colombo)}
+	%	\end{small}   
+	\vspace*{0.5\baselineskip}
+	
+	
+	
+	\vfill
+	
+	{University of Colombo School of Computing\\
+		Colombo 7\\
+		SRI LANKA}
+	
+	\vfill
+	{November 11, 2016}
+	%	\today 
+	
+
+
+\end{titlepage}
+\pagenumbering{roman}
+
+\newpage
+\section*{Chapter 01: Introduction.}
+
+\paragraph{Goal and objectives.}
+The world elephant population has been on the decline \cite {13} due to many reasons, among which the human elephant conflict is a major cause. Human settlements and cultivations adjoining the forest areas have resulted in the blocking of elephant migration routes and further  the presence of crops attracts wild elephants, causing damages to livelihood of humans while threatening the lives of both elephants and humans. The wildlife conservation authorities worldwide do not possess an established method to manage this situation which is non-destructive to both elephants and humans, with most authorities having to resort to brute force, often consequently aggravating the situation in the long term \cite {13}. At present, the primary solution introduced is the use of electric fences around elephant habitats to prevent elephants venturing beyond their habitat to encroach into human settlements; an expensive and potentially life threatening solution. 
+\paragraph{}
+The objective of this research is to implement  a cost effective input to a larger system that will help to solve the human elephant conflict building on and expanding upon the previous findings of related research. Research to date has found that elephants pass various messages using infra sound frequencies and this low frequency sound waves travel a greater distance than higher frequency waves  due to high frequency waves being more easily absorbed by air molecules compared to the lower frequency waves \cite {5}. In this research, an electronic system consisting of low cost sensors that have the capability of detecting infrasound calls emitted by the elephants as well as digital signal processing techniques are combined to  identify elephant  infrasonic vocalizations to localize the sound emitting sources. Further, attempts are made to use these information in various scenarios such as prior warning system before elephants enter a cultivation and elephant herd detection among other things.
+ 
+\begin{itemize} 
+  \item Research question.
+  \item Background and significance of the project.
+  \item Scope of the thesis.
+  \item Hypothesis.
+\end{itemize}
+
+\section*{Chapter 02 : Literature Review.}
+Related works on :
+\begin{itemize}
+  \item Biological researches on elephant communication. 
+  \item Behavior of infra sound waves.
+  \item Sound localization.
+  \item Signal classification.
+  \item Acoustic detection of elephants.
+  \item Infra sound recording devices
+\end{itemize}
+\section*{Chapter 03 : Design and Methodology.}
+\begin{itemize}
+  \item Introducing Elocate sensors.
+  \item Overview of sound localization. 
+  \item Comparison of localization techniques.
+  \item Application of cross correlation using Elocate sensors.
+  \item Feature extraction.
+  \item Signal enhancement.
+  \item Classification using SVM.
+\end{itemize}
+\section*{Chapter 04 : Implementation.}
+\begin{itemize}
+  \item Electronic circuit of the sensors.
+  \item Noise reduction techniques.
+  \item Implementation of localization.
+  \item Data collection.
+  \item Implementation of pre processing.
+  \item Training SVM.
+  \item Testing the model.
+\end{itemize}
+\section*{Chapter 05 : Results and Evaluation.}
+\begin{itemize}
+  \item Results of each experiment conducted.
+  \item A comprehensive analysis on results.
+\end{itemize}
+\section*{Chapter 06 : Conclusion and Future Works.}
+\begin{itemize}
+  \item New possibilities discovered.
+  \item Problems encountered.
+  \item Increasing the accuracy of detection and localization.
+  \item Summary
+\end{itemize}
+\newpage
+
+\pagenumbering{arabic}
+
+\newpage
+\begin{thebibliography}{1}
+\bibitem{1} Berg, J.K. 1983. Vocalizations and associated behaviours of the African elephant Loxodonta africana in captivity. Z. Tierpsychol 63:63-79.
+\bibitem{2}Payne, K. 2003. Sources of Social Complexity in the Three Elephant Species. In: Animal Social Complexity: Intelligence, Culture, and Individualized Societies. Ed: Frans B.M. de Waal and Peter L. Tyack. Harvard University Press.
+\bibitem{3} Payne, K., Langbauer, Jr., W.R., and Thomas, E. 1986. Infrasonic calls of the Asian elephant (Elephas maximus). Behavioral Ecology and Sociobiology.
+\bibitem{4} “Infrasonic Sound", Hyperphysics.phy-astr.gsu.edu, 2016. [Online]. Available: http://hyperphysics.phy-astr.gsu.edu/hbase/sound/infrasound.html. [Accessed: 27- Apr- 2016].
+\bibitem{5} Szabo T. L., 1994, “Time domain wave equations for lossy media obeying a frequency power law,” J. Acoust. Soc. Am., 96(1), pp. 491-500.
+\bibitem{6} Payne, K., Thompson, M., and Kramer, L. 2003. Elephant calling patterns as indicators of group size and composition: the basis for an acoustic monitoring system. African Journal of Ecology, 41: 99-107
+\bibitem{7} "INFILTEC: The Inexpensive Infrasound Monitor Project. - simple microbarograph design for DIY", Infiltec.com, 2016. [Online]. Available: http://www.infiltec.com/Infrasound@home/. [Accessed: 27- Apr- 2016].
+\bibitem{8} A. Vedurmudi, J. Goulet, J. Christensen-Dalsgaard, B. Young, R. Williams and J. van Hemmen, "How Internally Coupled Ears Generate Temporal and Amplitude Cues for Sound Localization",Phys. Rev. Lett., vol. 116, no. 2, 2016.
+\bibitem{9} ] Larom, D., M. Garstang, K. Payne, R. Raspet \& M. Lindeque. 1997. The influence of surface atmospheric conditions on the range and area reached by animal vocalizations. J. Experimental Biol. 200: 421-431.
+\bibitem{10} P. J. Venter and J. J. Hanekom. Automatic detection of african elephant (loxodonta africana) infrasonic vocalisations from recordings. Biosystems engineering.
+\bibitem{11} Acoustic Detection of Elephant Presence in Noisy Environments Matthias Zeppelzauer Vienna University of Technology.
+\bibitem{12} MUSIC Algorithm", Ptolemy.eecs.berkeley.edu, 2016. [Online]. Available: http://ptolemy.eecs.berkeley.edu/papers/96/dtmf\_ict/www/node5.html. [Accessed: 27- Apr- 2016].
+\bibitem{13} Lalith Seneviratne, G. Rossel, W.D.C.. Gunasekera, H.L.P.A. Madanayake, Y.M.S.S. Yapa and G. Doluweera.Elephant Infrasound Calls as a Method for Electronic Elephant Detection.
+\bibitem{14} J. E. Piercy, T. F. W. Embleton, L. C. Sutherland, Review of noise propagation in the atmosphere, J. Acoust. Soc. Am. Volume 61, Issue 6, pp. 1403-1418, June 1977.
+\bibitem{15} Panasonic Corporation. Panasonic Omnidirectional Back Electret Condenser Microphone Cartidge.[2016].  [Online]. Available: http://industrial.panasonic.com/cdbs/www-data/pdf/ABA5000/ABA5000CE22.pdf. [Accessed: 28- Apr- 2016].
+\bibitem{16}"LM358 | General Purpose Amplifier | Operational Amplifier (Op Amp) | Description \& parametrics", Ti.com, 2016. [Online]. Available: http://www.ti.com/product/LM358. [Accessed: 28- Apr- 2016].
+\bibitem{17}Jean-Marc Valin, Franc¸ois Michaud, Jean Rouat, Dominic Letourneau LABORIUS - Research Laboratory on Mobile Robotics and Intelligent Systems Department of Electrical Engineering and Computer Engineering Universite´ de Sherbrooke.Robust Sound Source Localization Using a Microphone Array on a Mobile Robot.
+\bibitem{18} Richard F. Lyon, Andreas G. Katsiamis, Emmanuel M. Drakakis (2010). "History and Future of Auditory Filter Models"
+\bibitem{19} Shermin de Silva "Acoustic communication in the Asian elephant,
+Elephas maximus maximus"
+\bibitem{20} Taff, L. G, “Target Localization from Bearings-only Observations,”
+IEEE Trans. Aerosp. Electron., 3, issue 1, (1997).New York: McGraw-Hill, 1964, pp. 15–64.
+\bibitem{21}D.Li, and Y. H. Hu, “Energy Based Collaborative Source Localization
+Using Acoustic Micro-Sensor Array,” EURASIP Journal on Applied
+Signal Processing, vol. 2003, no. 4, pp. 321-337, 2003.
+\bibitem{22}M. Brandstein and H. Silverman, “A Practical Methodology for Speech
+Source Localization with Microphone arrays,” Comput., Speech Lng.,
+vol. 11, no. 2, pp. 91-126, 1997.
+\bibitem{23} G. C. Carter, “Tutorial Overview of Coherence and Time Delay Estimation,”
+in Coherence and Time Delay Estimation—An Applied Tutorial for Research, Development, Test, and Evaluation Engineers, vol. 1,1993,pp. 1–27
+\bibitem{24}C. H. Knapp and G. C. Carter, “The Generalized Correlation Method for Estimation of Time Delay,” IEEE Trans. Acoust., Speech, Signal Processing,vol. ASSP-24, pp. 320–327, Aug.1976.
+\bibitem{25}  J.benesty, “Adaptive Eigenvalue Decomposition Algorithm for Passive Acoustic Source Localization,” Acoustical Society of America, January 2000.
+\bibitem{26} Hasan Khaddour, "A Comparison of Algorithms of Sound Source Localization Based
+on Time Delay Estimation"
+\bibitem{27} Sasha Devore,Antje Ihlefeld,Kenneth Hancock,Barbara Shinn-Cunningham,Bertrand Delgutte,
+"Accurate Sound Localization in Reverberant Environments Is Mediated by Robust Encoding of Spatial Cues in the Auditory Midbrain"
+\end{thebibliography}
+
+\end{document}
