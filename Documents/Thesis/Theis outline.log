@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.9.8)  20 NOV 2016 09:47
+This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.9.8)  29 NOV 2016 09:06
 **"Theis outline.tex"
 ("./Theis outline.tex"
 LaTeX2e <2014/05/01>
@@ -254,54 +254,62 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <28.45274> not available
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <28.45274> not available
 (Font)              size <24.88> substituted on input line 30.
 
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22.76228> not available
-(Font)              size <20.74> substituted on input line 35.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22.76228> not available
-(Font)              size <20.74> substituted on input line 35.
-
 <ucsc.png, id=1, 803.0pt x 839.135pt>
 File: ucsc.png Graphic file (type png)
  <use ucsc.png>
-Package pdftex.def Info: ucsc.png used on input line 62.
+Package pdftex.def Info: ucsc.png used on input line 60.
 (pdftex.def)             Requested size: 80.3047pt x 83.91841pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./ucsc.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 105.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./ucsc.png>] [1] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 147.
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
- [1] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
+ [3] [4] [5] [6]
+<anglecal.png, id=30, 681.29532pt x 154.32657pt>
+File: anglecal.png Graphic file (type png)
+ <use anglecal.png>
+Package pdftex.def Info: anglecal.png used on input line 201.
+(pdftex.def)             Requested size: 452.9679pt x 102.60703pt.
+
+<flow.png, id=31, 280.79906pt x 349.305pt>
+File: flow.png Graphic file (type png)
+ <use flow.png>
+Package pdftex.def Info: flow.png used on input line 211.
+(pdftex.def)             Requested size: 280.79837pt x 349.30414pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./anglecal.png>] [8 <./flow.png>] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 [][]\OT1/cmr/m/n/10.95 MU-SIC Al-go-rithm", Ptolemy.eecs.berke-ley.edu, 2016. [
 On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 170--171
+Underfull \hbox (badness 4752) in paragraph at lines 273--274
 \OT1/cmr/m/n/10.95 http://ptolemy.eecs.berke-ley.edu/pa-pers/96/dtmf[]ict/www/n
 ode5.html. [Ac-cessed: 27-
  []
 
-[1]
-Underfull \hbox (badness 1014) in paragraph at lines 173--174
+[11]
+Underfull \hbox (badness 1014) in paragraph at lines 276--277
 [][]\OT1/cmr/m/n/10.95 Pana-sonic Cor-po-ra-tion. Pana-sonic Om-ni-di-rec-tiona
 l Back Elec-tret Con-denser Mi-cro-
  []
 
-[2]
-Underfull \hbox (badness 4132) in paragraph at lines 193--195
+[12]
+Underfull \hbox (badness 4132) in paragraph at lines 296--298
 [][]\OT1/cmr/m/n/10.95 Sasha De-vore,An-tje Ih-le-feld,Ken-neth Han-cock,Bar-ba
 ra Shinn-Cunningham,Bertrand
  []
 
-[3] ("./Theis outline.aux")
+[13] ("./Theis outline.aux")
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.57274pt have occurred.
@@ -309,24 +317,23 @@ LaTeX Font Warning: Size substitutions with differences
  )
 
 Here is how much of LuaTeX's memory you used:
- 2686 strings out of 494733
+ 2677 strings out of 494733
  100000,106986 words of node,token memory allocated
- 343 words of node memory still in use:
+ 363 words of node memory still in use:
     nodes
-   avail lists: 2:16,3:78,4:609,5:139,6:2319,7:31,9:102,10:219
+   avail lists: 2:21,3:57,4:768,5:207,6:3428,7:179,9:67,10:344
  6247 multiletter control sequences out of 65536+200000
- 40 fonts using 1583699 bytes
- 34i,5n,20p,1027b,209s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on Theis outline.pdf (7 pages, 153936 bytes).
+ 27 fonts using 1073279 bytes
+ 34i,6n,20p,1616b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb>
+Output written on Theis outline.pdf (14 pages, 178914 bytes).
 
-PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,100 @@
+\contentsline {paragraph}{}{i}
+\contentsline {paragraph}{}{ii}
+\contentsline {paragraph}{}{ii}
+\contentsline {section}{\numberline {1}Introduction.}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {subsection}{\numberline {1.1}Goal and objectives.}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {subsection}{\numberline {1.2}Human Elephant Conflict}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {1.3}Research question.}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {1.4}Background and Significance.}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {1.5}Scope of the thesis.}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {section}{\numberline {2}Review of Literature.}{6}
+\contentsline {subsection}{\numberline {2.1}Elephant communication}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {2.2}Sound localization}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsection}{\numberline {2.3}Acoustic detection of elephants}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {2.4}Signal classification}{10}
+\contentsline {section}{\numberline {3}Design and Methodology.}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {3.1}Hardware used}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsubsection}{\numberline {3.1.1}Infiltec INFRA-20}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {3.2}Elocate sensors}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{14}
+\contentsline {subsubsection}{\numberline {3.2.1}Subwoofer}{15}
+\contentsline {subsubsection}{\numberline {3.2.2}Amplifier}{15}
+\contentsline {subsection}{\numberline {3.3}Localization}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {subsubsection}{\numberline {3.3.1}Time delay estimation}{16}
+\contentsline {subsubsection}{\numberline {3.3.2}Cross correlation}{16}
+\contentsline {paragraph}{}{17}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {3.4}Feature extraction}{19}
+\contentsline {subsection}{\numberline {3.5}Rumble detection}{19}
+\contentsline {subsection}{\numberline {3.6}Signal enhancement}{19}
+\contentsline {subsection}{\numberline {3.7}Classification using SVM}{19}
+\contentsline {section}{\numberline {4}Implementation.}{20}
+\contentsline {subsection}{\numberline {4.1}Electronic circuit of the sensors}{20}
+\contentsline {subsection}{\numberline {4.2}Localization using cross correlation}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {paragraph}{•}{22}
+\contentsline {subsection}{\numberline {4.3}Feature extraction}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {subsection}{\numberline {4.4}Spectrogram visualization}{25}
+\contentsline {subsection}{\numberline {4.5}SVM model}{28}
+\contentsline {subsection}{\numberline {4.6}Testing model}{29}
+\contentsline {section}{\numberline {5}Results and Evaluation.}{30}
+\contentsline {subsection}{\numberline {5.1}Introduction}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {subsection}{\numberline {5.2}Infiltec INFRA-20 vs Eloc Nodes}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {subsection}{\numberline {5.3}Localization experiment 01.}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {subsection}{\numberline {5.4}Localization experiment 02.}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{33}
+\contentsline {paragraph}{}{34}
+\contentsline {subsection}{\numberline {5.5}Localization experiment 03.}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{37}
+\contentsline {subsection}{\numberline {5.6}Error and correction of the angle}{39}
+\contentsline {subsection}{\numberline {5.7}Elephant Sound Recording in the Wild}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {paragraph}{}{40}
+\contentsline {subsection}{\numberline {5.8}Elephant detection model}{41}
+\contentsline {subsubsection}{\numberline {5.8.1}Data set}{41}
+\contentsline {subsubsection}{\numberline {5.8.2}Accuracy}{41}
+\contentsline {subsubsection}{\numberline {5.8.3}Improvements}{41}
+\contentsline {section}{\numberline {6}Conclusion and Future Works.}{42}
