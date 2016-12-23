@@ -8,8 +8,8 @@
 \usepackage{listings}
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
-\usepackage{times}
 \usepackage{float}
+\usepackage{gensymb}
 
 %border spacing
 \geometry{
@@ -205,7 +205,7 @@ The INFRA20 electronic noise level is about 20 counts (20 mPa or 60 dB SPL) over
 
 
 \newpage
-\subsection{Elocate sensors}
+\subsubsection{Elocate sensors}
 
 \paragraph{}
 In order to localize elephants using infrasonic emissions, it is necessary to have cost effective infrasonic detector systems. Most importantly, since we are deploying them in rural areas of Country in large numbers, they need to have a cheap unit cost. Moreover, they should be able to run with minimum maintenance due to the unavailability of technical experts in potential deployment areas. The ability for a rural villager with minimum technical knowledge to set up and run such an elephant localization system in the neighborhood to protect their premises would be a great advantage. The system has to be non-invasive to the elephants to avoid legal barriers of deploying such a system by individuals living in affected areas.
@@ -226,20 +226,7 @@ above 150 Hz.}
 \paragraph{}
 As shown in Figure \ref{image:circuit} , the pre amplifier consists of an operational amplifier in inverting mode and a low-pass filter. The low-pass filter attenuates frequencies above 150 Hz since we are interested only in infrasonic frequency components. Eloc nodes get power from a 9V battery attached to the plastic container. This complete unit draws a current less than 50mA from the battery when the microphone is active. Hence, Eloc nodes could be powered by solar cells to avoid the need of replacing batteries once deployed in the field. The output of the Eloc nodes is an analog signal that we can sample directly using a suitable analog-to-digital converter before sending it over a wireless network for processing in the back-end. For the experimental purposes, we connect it directly to the audio input port of a computer for processing on-site.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=12cm,height=15cm,keepaspectratio]{eloc_implementation.png}
-\caption{(a) The microphone together with pre-amp circuitry
-is placed inside a sealed plastic box and then placed
-inside the wire-frame with shock mounting. (b) This wireframe
-was covered with a soft material to cancel wind noise.
-In (c) and (d), two of these microphones are mounted in the
-front and back of a vehicle for field experiments.}
-\label{figure:eloc}
-\end{figure}
 
-\paragraph{}
-Since we are interested in low frequencies, the noise imposed by the wind plays an important role. Initial experiments indicated that the Eloc nodes are unable to detect low frequency sources since they are submerged under the wind noise floor. Therefore we design and built a wind barrier around the microphones to protect them from wind noise as shown in Figure \ref{figure:eloc}. This wind barrier consists of a wireframe with a soft material attached to it. An Eloc node is placed inside the wireframe using a vibration-proof mounting. We used different soft materials for the fur layer on the wireframe as well as several shapes for the wire frame to identify the most appropriate combination. The selected fur layer consists of a cheap artificial fur material we found off the shelf.
 
 \subsubsection{Subwoofer}
 
@@ -258,69 +245,252 @@ Our objective is to localize elephants by detecting their infrasonic emissions u
 as the wind. Reasons for using TDOA are it's implementation simplicity and ability to deploy in low powered computing devices. 
 
 \subsubsection{Time delay estimation}
+\paragraph{}
+Time delay estimation is determined by the relative time difference of arrival between signals received by different sensors. Phase shift of each signal is measured relative to the other signal and this is used to calculate the time delay of arrival. This time delay is calculated using cross correlation technique which will be explained in the section below. In this scenario time delay estimation is done using the infrasonic signals received by  two Elocate sensors placed few distance away from each other. \ref{sinewave} will show how a sinusoid signal will be recorded by two Elcoate sensors. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=100mm,height=50mm]{sinewave.png}
+\caption{}
+\label{sinewave}
+\end{figure}
+
+\paragraph{}
+This time delay is used to used to calculate the angle between the sensors and the sound emitting source. And this can be used for the localization of the source. 
+
 \subsubsection{Cross correlation}
 
-Localization will be done using cross correlation. Two infrasonic sensors, 3m away from each other, are placed at different location away from an infra sound emitting source, which is a full range speaker with a larger membrane, capable of emitting low frequency sounds connected to a low frequency amplifier. A recorded sound clip of 15 seconds will be input to an automatic angle calculator program. Abstract overview of the above mentioned program is shown in figure \ref{d:anglecal}. Before localization is tested for elephant sounds in  forest environments, this will be tested at university premises taking recordings at different places. Main concern of this works will be identifying the factors responsible for the generated error. Results of the preliminary experiments regarding the localization are included in section 9.
+\paragraph{}
+Signal data recorded by two sensors is in the form of digital. Therefore these two signals are in the form of array having the normalized amplitude at each sample. Cross correlation come into play when we are calculating the time delay of arrival using these two arrays. Cross-correlation measure the similarity of two signals as a function of the displacement of one relative to the other. One signal recorded from one sensor is displaced relative to the other signal recorded from the remaining sensor and sliding inner product is taken. The below figure \ref{crosscor} show how one signal is slide relative to the other signal.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width= \textwidth]{anglecal.png}
-\caption{Overview of the cross correlation program}
-\label{d:anglecal}
+\includegraphics[width=80mm,height=150mm]{crosscor.png}
+\caption{}
+\label{crosscor}
 \end{figure}
 
 \paragraph{}
-A high level overview of the integrated components is given in figure \ref{d:H}. An input from the sensor system (recorded signal) will be pre-processed in order to smooth-en the signal wave. The sample rate of the recorded wave will be 44100. Feature extraction is performed to feed this data to the machine learning module. The purpose of this is to be done using MFCC (Mel-Frequency Cepstral coefficients) at the initial stage and Green-wood feature extraction in the secondary stage. 
+Slided amount along the time axis at the maximum sum of product gives the time delay of arrival. Because at the maximum sum of product gives where the signals correlate each other. Since these two signals are not identical and affected by different type of noise and other factors this maximum correlation gives a fair trade off for the time delay of arrival. One limitation of this method is that, since these signals are periodic, after the first maximum correlation, at each and every 180 degree shift an another maximum correlation occurs. Therefore the maximum time delay of arrival should not give a phase different more than 180 degree. This delay is depend on the distance between the two sensors and in infrasonic recording scenario this distance should be determined according to the signal wave length that we are going to localize. 
+
+\paragraph{}
+Asian elephants communication range is 14Hz to 24Hz \cite{2}. Since our Elocate nodes start cutting high frequencies at 150Hz maximum harmonic frequency of 20Hz fundamental is 120Hz. So we select 120Hz as the maximum record-able frequency. This selection enables us to use frequencies below 120 Hz for the localization which includes a number of higher harmonics in addition to the fundamental frequency components of the elephants in the infrasonic range. If we assume that the average temperature is 30 $^{\circ}$ Celcius velocity of the sound will be 350 m/s. So from equation (1).
+
+\begin{equation}
+v=f\lambda
+\end{equation}
+\begin{equation}
+\lambda=v/f
+\end{equation}
+\begin{equation}
+\lambda=350/120
+\end{equation}
+\begin{equation}
+\lambda=2.916
+\end{equation}
+
+From the above calculation we select 3 meters as the distance between the Eloc nodes which is roughly the wavelength of the frequency 120 Hz under the atmospheric temperature of 30 $^{\circ}$ C to avoid capturing signals with a phase difference than 180 $^{\circ}$.
+
+
+\subsubsection{Estimation of the sound direction}
 
 \begin{figure}[H]
 \centering
-\includegraphics{flow.png}
-\caption{High level overview of the integrated components}
-\label{d:H}
+\includegraphics[width=140mm,height=100mm]{direction.png}
+\caption{Basic setup to calculate the direction of an infrasonic
+source using two Eloc nodes. The node pair is placed
+within a constant distance to each other and continuously
+capture data in a time synchronized manner in order to localize
+the source using time difference of arrival.}
+\label{direction}
 \end{figure}
 
 \paragraph{}
-An appropriate machine learning model will be selected based on the conclusion of the existing work and using the data sets recorded at different forest areas in Sri Lanka as well as the data sets received from the Smithsonian biology conservation institute (SBCI), which will be used to train this machine learning model. There will be a comparison between the signal properties of the recorded audios by SBCI and our recordings using sensors made by us at the laboratory. In the next phase of the research, there will be an integration of the localization work and the pattern recognition work.
+Figure \ref{direction} illustrates the basic setup to calculate the direction to an infrasonic source using two Eloc nodes. The infrasonic wavefront from the source arrives at the microphone M1 and then passes through it to the microphone M2. We take the distance the wavefront travel from M1 to M2 as d as illustrated in the figure and the time delay for this journey.is taken as D seconds. The same signal captured by M1 is captured by M2 after the D time delay. This time delay of arrival can be estimated by taking the cross correlation of the signals captured by M1 and M2. The lag towards the peak in the cross correlation graph indicates the phase shift between the two signals due to the delay D the infrasonic waves took to travel from the microphone M1 to the microphone M2. This phase shift can be measured as a number of samples, n. If the sampling rate at each microphone is f , we can have a representation of the time delay D as follows. 
+
+\begin{equation}
+D=n/f
+\end{equation}
 
 \paragraph{}
-Since a main objective of this research is to produce a low cost sustainable solution, for elephant localization and detection, the quality of the results obtained using laboratory made components will also be compared against the high cost devices currently available.
+We can deduce an equation for the time delay D, according to the geometry in Figure \ref{direction}, as follows. The speed of
+sound is taken as Vsound and the distance between the two microphones is L which are known values. The angle of infrasonic
+waves arriving at the line connecting two microphones is x in degrees.
 
-\subsection{Feature extraction}
-\subsection{Rumble detection}
-\subsection{Signal enhancement}
-\subsection{Classification using SVM}
+\begin{equation}
+D = d/ Vsound = L Cos x/ Vsound
+\end{equation}
 
+\paragraph{}
+Based on the Equations 5 and 6, we can calculate the angle x as follows.
 
-\newpage
-\section{Implementation.}
-\subsection{Electronic circuit of the sensors}
+\begin{equation}
+x=\cos ^{ - 1} (nVsound/Lf)
+\end{equation}
 
+\paragraph{}
+Equation 7 shows that when we know the sample lag between
+the same sound captured by two Eloc nodes, we can
+directly calculate the angle to the elephants location from the
+node pair. However, when using a recorded sound clip as a
+whole for the correlation calculation, different noise sources
+that affected each Eloc node lower the accuracy of the final
+result. To minimize such effects, we need multiple sound
+clips from the elephant while it is in the same location over
+the time period of capturing the sound. Due to the difficulty
+of capturing multiple sound clips in such a way, we break a
+single sound clip into windows so that we can consider each sample window as a separate data input for the correlation
+calculation.
 
-
-
-
-
-\newpage
-\subsection{Localization using cross correlation}
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm,height=13cm,keepaspectratio]{crosscor_implementation.png}
+\includegraphics[width= \textwidth]{crosscor_implementation.png}
 \caption{Process of calculating the location to an elephant.
 A pair of Eloc nodes capture elephant sounds which we
 break into windows, cross-correlate, calculated the sample
 lag and finally use it as an input for the angle calculation.}
-\label{d:p7}
+\label{crosscor_implementation}
 \end{figure}
 
 \paragraph{}
-This was implemented in Python as well as in Matlab for different experiments. Following is the python implementation.
-\begin{lstlisting}
-import numpy as np
-from scipy.io import wavfile
-import math
-#this work only for 16bit wave format
+Figure \ref{crosscor_implementation} illustrates the complete process of locating an elephant using the infrasonic data. In the first step, two Eloc nodes capture infrasonic data in a time synchronized manner and we sample and quantize their output as the first step. Secondly, we break the data sets of the two channels into multiple windows of equal sizes to get multiple data samples from the original recordings. Then we take each corresponding window pair from the two channels and calculate
+the cross correlation between them (Step 3). The number of sample points (i.e: lag) to the peak of the cross correlation
+is the phase shift n in the Equation 7 that we compute in the fourth step. Using this value, we calculate the angle to the
+infrasonic source for each sample window in Step 5.
 
-def getAngle(fi):
+\paragraph{}
+Since we have multiple windows, we get multiple angles to the infrasonic source which may not necessarily be the
+same value due to the noise in our recorded data. As Step 6 of Figure \ref{crosscor_implementation}, we plot the distribution of calculated angles for multiple windows for a known sound source. In the next step, we take the statistical mode of the distribution as the most representative angle that represents the actual angle towards the sound source. Our eventual goal is to deploy multiple pairs of Eloc nodes. In Step 8 we can then perform triangulation based on the angles calculated using each node pair to compute the position of the elephant in Step 9.
+
+\paragraph{}
+According to Equation 7 the angle calculation depends on the speed of sound, distance between the Eloc nodes, sampling
+rate of the nodes, and the lag taken from the cross correlation. We can consider all the parameters as constants
+except the lag, n, towards the cross correlation peak. The calculated angle is a non-linear function of n. That means, to
+get the same change of degrees in the calculated angle, the required change in sample lag will be different from angle to
+angle. Since this phenomena has an important effect on the errors we observed in real world experiments, we analyze the
+behavior of angle calculation.
+
+\subsubsection{Estimation of the error}
+
+\paragraph{}
+Minimum difference in the sample lag that we can measure depends on the sampling rate of the analogto-
+digital conversion (ADC) on the connected computer. For a sampling rate of f , the minimum resolution of time measurement
+we can have is (+/-)1= f . Since the sample lag n in Equation 7 has the same resolution, the error in n becomes
+(+/-)1= f . We analyze the propagation of this error to the calculated angle as follows.
+
+\paragraph{}
+According to the error theory \cite{35}, the error, \Delta x, propagated to the calculated angle x is,
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=100mm,height=20mm]{error.png}
+\end{figure}
+
+where, \Delta n, \Delta v, and \Delta L are the the measurement errors in the lag, speed of sound and the distance between Eloc nodes. Under the assumption that the speed of sound and the distance between the two Eloc are constants, this simplifies to,
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=30mm,height=15mm]{error1.png}
+\end{figure}
+
+\paragraph{}
+From equation 7,
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=35mm,height=15mm]{error2.png}
+\end{figure}
+
+\paragraph{}
+We differentiate it by n,
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=45mm,height=35mm]{error3.png}
+\end{figure}
+
+\paragraph{}
+During the time period of the experiments, we assume that the speed of sound (Vsound ), the distance between the two
+microphones (L) and the sampling rate of the microphones ( f ) are constants. Therefore,
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=30mm,height=15mm]{error4.png}
+\end{figure}
+
+\paragraph{}
+So by substituting the constant,
+
+\begin{equation}
+\frac{dx}{dn}=-k(\frac{1}{sin x})
+\end{equation}
+
+
+
+\subsection{Acoustic detection}
+Due to the fact that the elephants communicate with each other by low-frequency sounds, which travel distances of several kilometers acoustic detection of elephants by their calls has become a promising approach. In this section we discuss the methodology of automating the detection of recorded elephant calls in a machine learning approach. Major challenges that we faced in the process of automating the elephant call detection are the large variety of uncontrollable noises from wind, rain, cars and airplanes, and sparsity and irregularity of elephant calls, which makes it difficult to predict the occurrence of a call. We employ an image processing based signal filtering mechanism to filter out this noise based on the work of \cite{11}.
+
+Initially, we train the model without any signal enhancement or noise filtering mechanism. And then the spectro temporal enchacment proposed by \cite{11} is applied and results are compared. We are dealing with a signal data set which basically are audio clips in time domain. The signal consist of the mean amplitude of each sample and all other information such as frequency and wavelength can be extracted using it. To a classifier these raw data doesn't make any sense. Main objective of this kind of classification is clearly distinguish the waves of elephant calls and waves without elephant calls. So that the all the features that distinguish elephant calls from other sounds should be extracted to feed into the classifier. So in the first step features are extracted from the waves.
+
+\subsubsection{Feature extraction}
+The first step in automatic elephant call detection is to extract features i.e. identify the components of the audio signals that are good for detecting the elephant vocal contents and discarding all the other stuff. Feature extraction is the process of computing a compact compact numerical representation that can be categorize a segment of audio. Naturally this done in human ears by filtering out according to the shape of the vocal tract including tongue, teeth etc. The same technique is modeled mathematically to filter out the unnecessary things mentioned above. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm,height=15cm,keepaspectratio]{feature_extraction.png}
+\caption{Overview of feature extraction.}
+\label{feature_extraction}
+\end{figure}
+
+
+
+
+\subsubsection{Mel Frequency Cepstral Coefficients}
+\subsubsection{Rumble detection}
+\subsubsection{Signal enhancement}
+\subsubsection{Classification using SVM}
+
+
+\newpage
+\section{Implementation.}
+In this chapter we will be discussing on implementation process of the Elocate nodes, localization and automated acoustic detection system based on machine learning.
+\subsection{Implementation of Elocate nodes}
+\paragraph{}
+Section 3.1.2 is consist of the architecture and design of the Elocate nodes and in here we will be discussing on the implementation constraints. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm,height=15cm,keepaspectratio]{eloc_implementation.png}
+\caption{(a) The microphone together with pre-amp circuitry
+is placed inside a sealed plastic box and then placed
+inside the wire-frame with shock mounting. (b) This wireframe
+was covered with a soft material to cancel wind noise.
+In (c) and (d), two of these microphones are mounted in the
+front and back of a vehicle for field experiments.}
+\label{figure:eloc}
+\end{figure}
+
+\paragraph{}
+Since we are interested in low frequencies, the noise imposed by the wind plays an important role. Initial experiments indicated that the Eloc nodes are unable to detect low frequency sources since they are submerged under the wind noise floor. Therefore we design and built a wind barrier around the microphones to protect them from wind noise as shown in Figure \ref{figure:eloc}. This wind barrier consists of a wireframe with a soft material attached to it. An Eloc node is placed inside the wireframe using a vibration-proof mounting. We used different soft materials for the fur layer on the wireframe as well as several shapes for the wire frame to identify the most appropriate combination. The selected fur layer consists of a cheap artificial fur material we found off the shelf. Detailed comparison of the Eloc node with the INFRA20 will be on the Evaluation.
+
+
+\subsection{Localization}
+
+\subsubsection{Estimation of the direction}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=100mm,height=80mm]{direction.png}
+\label{direction1}
+\end{figure}
+\paragraph{}
+
+This was implemented using Python and Matlab for different experiments and deployment environments. This estimation gives a angle , precisely a distribution of angles calculated in each window. Default windows size used is 10000 samples. At this phase the audio recorded is the input to the angle (x in the above diagram) calculation function with the parameters, distance between two Elocate nodes, sample rate and velocity of the sound. The audio should be a two channel audio consisting with data from two Elcoate nodes and recorded in 16 bit wave format because in the implementation audio is normalized by dividing every amplitude by the maximum value of 16 bit representation. A window from signal1 is cross-correlated with the corresponding window in signal2 and the lag is calculated. As mentioned in the Methodology this lag is then used to calculate the angle x in the above figure. This is done for each and every window and a angle calculated from each window is stored in an array. If an abnormal result is generated by the noise that values are simply neglected by dropping all the sine values greater than one. Following code snippet shows this implementation in Python.
+
+\begin{lstlisting}
+#filename , sampel rate, distance between two nodes, 
+velocity of sound
+def getAngle(fi,fs,d,vs):   
     fs, data = wavfile.read(fi)
     data=data.astype('float64')
     data=data.T/32767
@@ -328,8 +498,6 @@ def getAngle(fi):
     s2=data[1]
     limit=len(data[0])
     fs = 44100
-    d = 3 #distance between two microphones
-    vs=335.0
     start_window = 1
     end_window = 10000
     window = 10000
@@ -340,14 +508,10 @@ def getAngle(fi):
         s2=data[1][start_window:end_window]
         xcor=np.correlate(s1,s2,'full')
         m=max(xcor)
-        #print(xcor)
         im=np.argmax(xcor)
         start_window = start_window + window
         end_window = end_window + window
         deference = abs(im - window)
-        #print deference
-        #break
-        #print(deference*vs/fs/d)
         ang = deference*vs/fs/d
         if(ang<=1):
             angle=np.arcsin(ang)
@@ -358,45 +522,12 @@ def getAngle(fi):
     return(arr)
 \end{lstlisting}
 
-\paragraph{•}
-Following is the Matlab implementation of the above implementation to find the angles.
-\begin{lstlisting}
-function angle = get_angle_mode(name)
-data = audioread(name);
-array = [];
-[limit,b] = size(data);
-data = data';
-fs = 44100;
-d = 3;
-vs = 335.0; %340.29; % 343.2 / 
-start_window = 1;
-end_window = 10000;
-window = 10000;
-total = 0;
-i = 0;
-a=0;
-while end_window < limit
-    s1 = data(1,start_window:end_window);
-    s2 = data(2,start_window:end_window);
-    [m,im]=max(abs(xcorr(s1,s2)));
-    start_window = start_window + window;
-    end_window = end_window + window;
-    deference = abs(im - window);
-	break;
-	ang=abs(deference*vs/fs/d);
-	if ang<=1
-        angle = asind(ang);
-        array = [array,angle];
-	end	
-	
-    
-end
-%disp(array);
-angle=array;
-\end{lstlisting}
+\paragraph{}
+For importing wave files wavefile module from Scipy is used and Correlate from Numpy is used for cross-correlation. Matplotlib is used to visualize calculated angles for each window in a particular wave file in a histogram. 
 
 
-\newpage
+\subsection{Pattern}
+Data are in wave format. As the name suggest it consist of the raw wave information in the time domain. 
 \subsection{Feature extraction}
 \paragraph{}
 Implementation of the feature extraction was done in Python. MFCC was used in the initial phase which is in Python speeches. Default frequency range of MFCC is shifted down where maximum frequency will be 300Hz which is suitable for elephant range.
@@ -942,6 +1073,7 @@ on Time Delay Estimation"
 \bibitem{32} S. Blake, I. Douglas-Hamilton, andW. Karesh. Gps telemetry of forest elephants in central africa: results of a preliminary study. African Journal of Ecology, 39(2):178–186, 2001.
 \bibitem{33}H. Wang, C.-E. Chen, A. Ali, S. Asgari, R. E. Hudson, K. Yao, D. Estrin, and C. Taylor. Acoustic sensor networks for woodpecker localization. In Optics Photonics 2005, pages 591009–591009. International Society for Optics and Photonics, 2005.
 \bibitem{34}Y.-E. Kim, C.-H. Jeon, D.-H. Su, J.-K. Lee, J.-G. Chung, and K.-J. Cho. Sound Source Localization Method Using Region Selection.INTECH Open Access Publisher, 2011.
+\bibitem{35}J. Taylor. Introduction to Error Analysis, the Study of Uncertainties in Physical Measurements, 2nd Edition. University Science Books, Aug.1997.
 
 \end{thebibliography}
 
