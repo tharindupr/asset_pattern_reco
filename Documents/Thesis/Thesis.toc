@@ -1,34 +1,43 @@
 \contentsline {paragraph}{}{i}
+\contentsline {paragraph}{}{i}
+\contentsline {paragraph}{}{i}
+\contentsline {paragraph}{}{i}
+\contentsline {paragraph}{}{i}
+\contentsline {paragraph}{}{i}
 \contentsline {paragraph}{}{ii}
 \contentsline {paragraph}{}{ii}
+\contentsline {paragraph}{}{ii}
+\contentsline {paragraph}{•}{ii}
+\contentsline {paragraph}{}{iii}
 \contentsline {section}{\numberline {1}Introduction.}{1}
 \contentsline {paragraph}{}{1}
-\contentsline {subsection}{\numberline {1.1}Goal and objectives.}{1}
+\contentsline {subsection}{\numberline {1.1}Goal and Objectives.}{1}
 \contentsline {paragraph}{}{1}
-\contentsline {subsection}{\numberline {1.2}Human Elephant Conflict}{2}
+\contentsline {subsection}{\numberline {1.2}Human Elephant Conflict.}{2}
 \contentsline {paragraph}{}{2}
-\contentsline {subsection}{\numberline {1.3}Research question.}{2}
-\contentsline {paragraph}{}{2}
-\contentsline {subsection}{\numberline {1.4}Background and Significance.}{2}
-\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {1.3}Research Question.}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {subsection}{\numberline {1.4}Background and Significance.}{3}
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {1.5}Scope of the thesis.}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {section}{\numberline {2}Review of Literature.}{6}
-\contentsline {subsection}{\numberline {2.1}Elephant communication}{6}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {1.5}Scope of the Thesis.}{5}
+\contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{6}
-\contentsline {paragraph}{}{6}
+\contentsline {section}{\numberline {2}Review of Literature.}{7}
+\contentsline {subsection}{\numberline {2.1}Elephant Communication.}{7}
 \contentsline {paragraph}{}{7}
-\contentsline {subsection}{\numberline {2.2}Sound localization}{8}
+\contentsline {paragraph}{}{7}
 \contentsline {paragraph}{}{8}
+\contentsline {subsection}{\numberline {2.2}Sound Localization.}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {paragraph}{}{8}
-\contentsline {subsection}{\numberline {2.3}Acoustic detection of elephants}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {subsection}{\numberline {2.4}Signal classification}{10}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {2.3}Acoustic Detection of Elephants}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
 \contentsline {section}{\numberline {3}Design and Methodology.}{11}
 \contentsline {paragraph}{}{11}
 \contentsline {paragraph}{}{11}
@@ -42,9 +51,9 @@
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{13}
-\contentsline {subsubsection}{\numberline {3.1.3}Subwoofer}{14}
-\contentsline {subsubsection}{\numberline {3.1.4}Amplifier}{14}
-\contentsline {subsection}{\numberline {3.2}Localization}{15}
+\contentsline {subsubsection}{\numberline {3.1.3}Subwoofer and Amplifier}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {3.2}Localization of the infra sound}{15}
 \contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{15}
 \contentsline {subsubsection}{\numberline {3.2.1}Time delay estimation}{15}
@@ -69,54 +78,98 @@
 \contentsline {paragraph}{}{23}
 \contentsline {paragraph}{}{23}
 \contentsline {paragraph}{}{23}
-\contentsline {subsection}{\numberline {3.3}Acoustic detection}{23}
+\contentsline {subsection}{\numberline {3.3}Acoustic detection of the elephant calls}{23}
+\contentsline {paragraph}{}{23}
+\contentsline {paragraph}{}{24}
 \contentsline {subsubsection}{\numberline {3.3.1}Feature extraction}{24}
-\contentsline {subsubsection}{\numberline {3.3.2}Mel Frequency Cepstral Coefficients}{25}
-\contentsline {subsubsection}{\numberline {3.3.3}Rumble detection}{25}
-\contentsline {subsubsection}{\numberline {3.3.4}Signal enhancement}{25}
-\contentsline {subsubsection}{\numberline {3.3.5}Classification using SVM}{25}
-\contentsline {section}{\numberline {4}Implementation.}{26}
-\contentsline {subsection}{\numberline {4.1}Implementation of Elocate nodes}{26}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{25}
+\contentsline {subsubsection}{\numberline {3.3.2}Adopting Mel Frequency Cepstral Coefficients}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
 \contentsline {paragraph}{}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {subsection}{\numberline {4.2}Localization}{27}
-\contentsline {subsubsection}{\numberline {4.2.1}Estimation of the direction}{27}
 \contentsline {paragraph}{}{27}
+\contentsline {subsubsection}{\numberline {3.3.3}Signal enhancement}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {paragraph}{}{28}
 \contentsline {paragraph}{}{29}
-\contentsline {subsection}{\numberline {4.3}Pattern}{29}
-\contentsline {subsection}{\numberline {4.4}Feature extraction}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {subsubsection}{\numberline {3.3.4}Classification using Support Vector Machine}{29}
+\contentsline {paragraph}{}{29}
 \contentsline {paragraph}{}{29}
 \contentsline {paragraph}{}{30}
-\contentsline {subsection}{\numberline {4.5}Spectrogram visualization}{31}
-\contentsline {subsection}{\numberline {4.6}SVM model}{34}
-\contentsline {subsection}{\numberline {4.7}Testing model}{35}
-\contentsline {section}{\numberline {5}Results and Evaluation.}{36}
-\contentsline {subsection}{\numberline {5.1}Introduction}{36}
+\contentsline {section}{\numberline {4}Implementation.}{31}
+\contentsline {subsection}{\numberline {4.1}Implementation of Elocate nodes}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {subsection}{\numberline {4.2}Localization}{32}
+\contentsline {subsubsection}{\numberline {4.2.1}Estimation of the direction}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{34}
+\contentsline {subsubsection}{\numberline {4.2.2}Sparse Fast Fourier Transform}{34}
+\contentsline {paragraph}{}{34}
+\contentsline {paragraph}{}{34}
+\contentsline {subsection}{\numberline {4.3}Pattern recognition of the rumbles}{35}
+\contentsline {subsubsection}{\numberline {4.3.1}Signal enhancement}{35}
+\contentsline {subsubsection}{\numberline {4.3.2}Feature extraction}{35}
+\contentsline {paragraph}{}{35}
 \contentsline {paragraph}{}{36}
-\contentsline {subsection}{\numberline {5.2}Infiltec INFRA-20 vs Eloc Nodes}{36}
 \contentsline {paragraph}{}{36}
+\contentsline {subsubsection}{\numberline {4.3.3}Spectrogram visualization}{36}
 \contentsline {paragraph}{}{36}
-\contentsline {subsection}{\numberline {5.3}Localization experiment 01.}{37}
-\contentsline {paragraph}{}{37}
-\contentsline {subsection}{\numberline {5.4}Localization experiment 02.}{38}
-\contentsline {paragraph}{}{38}
-\contentsline {paragraph}{}{38}
+\contentsline {subsubsection}{\numberline {4.3.4}SVM model}{38}
 \contentsline {paragraph}{}{39}
+\contentsline {subsubsection}{\numberline {4.3.5}Testing model}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {section}{\numberline {5}Results and Evaluation.}{40}
 \contentsline {paragraph}{}{40}
-\contentsline {subsection}{\numberline {5.5}Localization experiment 03.}{41}
+\contentsline {subsection}{\numberline {5.1}Infiltec INFRA-20 vs Eloc Nodes}{40}
+\contentsline {paragraph}{}{40}
+\contentsline {subsection}{\numberline {5.2}Localization experiments}{41}
 \contentsline {paragraph}{}{41}
+\contentsline {subsubsection}{\numberline {5.2.1}Localization experiment 01.}{42}
 \contentsline {paragraph}{}{42}
-\contentsline {paragraph}{}{42}
+\contentsline {subsubsection}{\numberline {5.2.2}Localization experiment 02.}{43}
 \contentsline {paragraph}{}{43}
 \contentsline {paragraph}{}{43}
 \contentsline {paragraph}{}{44}
-\contentsline {subsection}{\numberline {5.6}Error and correction of the angle}{45}
-\contentsline {subsection}{\numberline {5.7}Elephant Sound Recording in the Wild}{45}
 \contentsline {paragraph}{}{45}
-\contentsline {paragraph}{}{45}
+\contentsline {subsubsection}{\numberline {5.2.3}Localization experiment 03.}{46}
 \contentsline {paragraph}{}{46}
-\contentsline {subsection}{\numberline {5.8}Elephant detection model}{47}
-\contentsline {subsubsection}{\numberline {5.8.1}Data set}{47}
-\contentsline {subsubsection}{\numberline {5.8.2}Accuracy}{47}
-\contentsline {subsubsection}{\numberline {5.8.3}Improvements}{47}
-\contentsline {section}{\numberline {6}Conclusion and Future Works.}{48}
+\contentsline {paragraph}{}{46}
+\contentsline {paragraph}{}{46}
+\contentsline {paragraph}{}{46}
+\contentsline {paragraph}{}{49}
+\contentsline {paragraph}{}{49}
+\contentsline {subsection}{\numberline {5.3}Elephant Sound Recording in the Wild}{51}
+\contentsline {paragraph}{}{51}
+\contentsline {subsubsection}{\numberline {5.3.1}At Kalawewa Sanctuary }{51}
+\contentsline {paragraph}{}{51}
+\contentsline {subsubsection}{\numberline {5.3.2}At Yala National Park}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{53}
+\contentsline {paragraph}{}{54}
+\contentsline {subsection}{\numberline {5.4}Elephant detection model}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {subsubsection}{\numberline {5.4.1}Data set}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{}{57}
+\contentsline {subsubsection}{\numberline {5.4.2}Training and testing}{57}
+\contentsline {paragraph}{}{57}
+\contentsline {paragraph}{}{58}
+\contentsline {subsubsection}{\numberline {5.4.3}Result and Evaluations}{58}
+\contentsline {paragraph}{}{58}
+\contentsline {paragraph}{}{60}
+\contentsline {paragraph}{}{61}
+\contentsline {paragraph}{}{62}
+\contentsline {paragraph}{}{62}
+\contentsline {section}{\numberline {6}Conclusion and Future Works.}{63}
+\contentsline {subsection}{\numberline {6.1}Conclusion}{63}
+\contentsline {paragraph}{}{63}
+\contentsline {paragraph}{}{63}
+\contentsline {paragraph}{}{63}
+\contentsline {subsection}{\numberline {6.2}Future Works}{64}
+\contentsline {paragraph}{}{64}
+\contentsline {paragraph}{}{64}
+\contentsline {section}{\numberline {A}Appendix}{65}

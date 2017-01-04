@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.9.8)  23 DEC 2016 11:07
+This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.9.8)  3 JAN 2017 09:57
 **Thesis.tex
 (./Thesis.tex
 LaTeX2e <2014/05/01>
@@ -219,26 +219,88 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 ("C:/Program Files/MiKTeX 2.9/tex/latex/was/gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/caption/caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/caption/caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count113
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/caption/subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count114
+\c@subtable=\count115
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
 ) (./Thesis.aux
 
-LaTeX Warning: Label `d:p7' multiply defined.
+LaTeX Warning: Label `fig:sub1' multiply defined.
 
 
-LaTeX Warning: Label `d:p7' multiply defined.
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -276,30 +338,32 @@ LaTeX Font Info:    ... okay on input line 26.
 
 ("C:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen128
+\scratchcounter=\count116
+\scratchdimen=\dimen135
 \scratchbox=\box33
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen129
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen136
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks28
 )
-\c@lstlisting=\count119
-LaTeX Info: Redefining \celsius on input line 26.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
+\c@lstlisting=\count122
+LaTeX Info: Redefining \celsius on input line 56.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 56.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 26.
-Package gensymb Info: Using \Omega for \ohm on input line 26.
+LaTeX Info: Redefining \ohm on input line 56.
+Package gensymb Info: Using \Omega for \ohm on input line 56.
 
 Package gensymb Warning: Not defining \micro.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -335,411 +399,475 @@ Package gensymb Warning: Not defining \micro.
 <logo.png, id=1, 334.3692pt x 392.9079pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 33.
+Package pdftex.def Info: logo.png used on input line 63.
 (pdftex.def)             Requested size: 66.87265pt x 78.58018pt.
 
 <ucsc.png, id=2, 803.0pt x 839.135pt>
 File: ucsc.png Graphic file (type png)
  <use ucsc.png>
-Package pdftex.def Info: ucsc.png used on input line 42.
+Package pdftex.def Info: ucsc.png used on input line 72.
 (pdftex.def)             Requested size: 48.17792pt x 50.34592pt.
  [1
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png> <./ucsc.png>]
- [1] [2] (./Thesis.toc
-[3])
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+[1] [2] [3] (./Thesis.toc [4])
 \tf@toc=\write3
- [4] [1] [2] <a.png, id=29, 547.2947pt x 411.78844pt>
+ [5] (./Thesis.lof [6])
+\tf@lof=\write4
+ [7] [8] [1] [2]
+<a.png, id=42, 547.2947pt x 411.78844pt>
 File: a.png Graphic file (type png)
  <use a.png>
-Package pdftex.def Info: a.png used on input line 94.
+Package pdftex.def Info: a.png used on input line 208.
 (pdftex.def)             Requested size: 426.79134pt x 321.12456pt.
 
-Overfull \hbox (6.82864pt too wide) in paragraph at lines 94--95
+Overfull \hbox (6.82864pt too wide) in paragraph at lines 208--209
  [][][] 
  []
 
-[3 <./a.png>] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+[3] [4 <./a.png>] [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 234.
  ("C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 234.
 
-[5] [6] [7] [8] [9] [10] [11] <INFRA_20.jpg, id=59, 481.8pt x 361.35pt>
+[6] [7] [8] [9] [10] [11] <INFRA_20.jpg, id=71, 481.8pt x 361.35pt>
 File: INFRA_20.jpg Graphic file (type jpg)
 
 <use INFRA_20.jpg>
-Package pdftex.def Info: INFRA_20.jpg used on input line 201.
+Package pdftex.def Info: INFRA_20.jpg used on input line 308.
 (pdftex.def)             Requested size: 284.53154pt x 213.39867pt.
  [12 <./INFRA_20.jpg>]
-<circuit.png, id=63, 524.71031pt x 227.34938pt>
+<circuit.png, id=76, 524.71031pt x 227.34938pt>
 File: circuit.png Graphic file (type png)
  <use circuit.png>
-Package pdftex.def Info: circuit.png used on input line 218.
+Package pdftex.def Info: circuit.png used on input line 325.
 (pdftex.def)             Requested size: 284.53229pt x 123.28372pt.
- [13 <./circuit.png>] [14] [15] <sinewave.png, id=74, 395.22656pt x 155.07938pt
+ [13 <./circuit.png>] [14] [15] <sinewave.png, id=87, 395.22656pt x 155.07938pt
 >
 File: sinewave.png Graphic file (type png)
 
 <use sinewave.png>
-Package pdftex.def Info: sinewave.png used on input line 253.
+Package pdftex.def Info: sinewave.png used on input line 359.
 (pdftex.def)             Requested size: 284.52672pt x 142.263pt.
- <crosscor.png, id=75, 281.55188pt x 346.29375pt>
+ <crosscor.png, id=88, 281.55188pt x 346.29375pt>
 File: crosscor.png Graphic file (type png)
 
 <use crosscor.png>
-Package pdftex.def Info: crosscor.png used on input line 268.
+Package pdftex.def Info: crosscor.png used on input line 374.
 (pdftex.def)             Requested size: 227.62186pt x 426.80534pt.
  [16 <./sinewave.png>] [17 <./crosscor.png>]
-<direction.png, id=85, 301.8778pt x 203.25937pt>
+<direction.png, id=97, 301.8778pt x 203.25937pt>
 File: direction.png Graphic file (type png)
  <use direction.png>
-Package pdftex.def Info: direction.png used on input line 299.
+Package pdftex.def Info: direction.png used on input line 405.
 (pdftex.def)             Requested size: 398.33713pt x 284.53946pt.
  [18]
 [19 <./direction.png>]
-<crosscor_implementation.png, id=95, 596.98032pt x 336.50719pt>
+<crosscor_implementation.png, id=107, 596.98032pt x 336.50719pt>
 File: crosscor_implementation.png Graphic file (type png)
 
 <use crosscor_implementation.png>
-Package pdftex.def Info: crosscor_implementation.png used on input line 347.
+Package pdftex.def Info: crosscor_implementation.png used on input line 453.
 (pdftex.def)             Requested size: 419.96269pt x 236.72925pt.
  [20] [21 <./crosscor_implementation.png>]
-<error.png, id=104, 490.08093pt x 89.58469pt>
+<error.png, id=116, 490.08093pt x 89.58469pt>
 File: error.png Graphic file (type png)
  <use error.png>
-Package pdftex.def Info: error.png used on input line 386.
+Package pdftex.def Info: error.png used on input line 492.
 (pdftex.def)             Requested size: 284.53131pt x 56.90613pt.
 
-<error1.png, id=105, 136.25906pt x 73.77562pt>
+<error1.png, id=117, 136.25906pt x 73.77562pt>
 File: error1.png Graphic file (type png)
  <use error1.png>
-Package pdftex.def Info: error1.png used on input line 393.
+Package pdftex.def Info: error1.png used on input line 499.
 (pdftex.def)             Requested size: 85.35713pt x 42.67955pt.
 
-<error2.png, id=106, 194.22563pt x 66.2475pt>
+<error2.png, id=118, 194.22563pt x 66.2475pt>
 File: error2.png Graphic file (type png)
  <use error2.png>
-Package pdftex.def Info: error2.png used on input line 401.
+Package pdftex.def Info: error2.png used on input line 507.
 (pdftex.def)             Requested size: 99.5872pt x 42.67926pt.
- [22 <./error.png> <./error1.png>] <error3.png, id=112, 225.09094pt x 167.87718
+ [22 <./error.png> <./error1.png>] <error3.png, id=125, 225.09094pt x 167.87718
 pt>
 File: error3.png Graphic file (type png)
 
 <use error3.png>
-Package pdftex.def Info: error3.png used on input line 409.
+Package pdftex.def Info: error3.png used on input line 515.
 (pdftex.def)             Requested size: 128.04213pt x 99.58461pt.
- <error4.png, id=113, 127.97812pt x 69.25874pt>
+ <error4.png, id=126, 127.97812pt x 69.25874pt>
 File: error4.png Graphic file (type png)
 
 <use error4.png>
-Package pdftex.def Info: error4.png used on input line 418.
+Package pdftex.def Info: error4.png used on input line 524.
 (pdftex.def)             Requested size: 85.35823pt x 42.67892pt.
  [23 <./error2.png> <./error3.png> <./error4.png>]
-<feature_extraction.png, id=120, 288.3272pt x 236.38312pt>
+<feature_extraction.png, id=133, 288.3272pt x 236.38312pt>
 File: feature_extraction.png Graphic file (type png)
 
 <use feature_extraction.png>
-Package pdftex.def Info: feature_extraction.png used on input line 440.
+Package pdftex.def Info: feature_extraction.png used on input line 546.
 (pdftex.def)             Requested size: 341.44618pt x 279.93237pt.
- [24] [25 <./feature_extraction.png>]
-<eloc_implementation.png, id=128, 472.76625pt x 373.395pt>
+ [24] [25 <./feature_extraction.png>] [26]
+<SNR.png, id=144, 439.6425pt x 404.26031pt>
+File: SNR.png Graphic file (type png)
+ <use SNR.png>
+Package pdftex.def Info: SNR.png used on input line 591.
+(pdftex.def)             Requested size: 341.44391pt x 313.9647pt.
+ [27] [28 <./SNR.png>] [29] [30] <eloc_implementation.png, id=158, 472.76625pt 
+x 373.395pt>
 File: eloc_implementation.png Graphic file (type png)
 
 <use eloc_implementation.png>
-Package pdftex.def Info: eloc_implementation.png used on input line 463.
+Package pdftex.def Info: eloc_implementation.png used on input line 639.
 (pdftex.def)             Requested size: 341.43744pt x 269.67033pt.
- [26 <./eloc_implementation.png>]
+ [31 <./eloc_implementation.png>]
 File: direction.png Graphic file (type png)
 
 <use direction.png>
-Package pdftex.def Info: direction.png used on input line 483.
+Package pdftex.def Info: direction.png used on input line 659.
 (pdftex.def)             Requested size: 284.5252pt x 227.63033pt.
- [27]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 506.
- ("C:/Program Files/MiKTeX 2.9/tex/latex/base/omlcmr.fd"
+ [32]
+("C:/Program Files/MiKTeX 2.9/tex/latex/listings/lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 682.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 506.
- [28]
-Overfull \hbox (59.43648pt too wide) in paragraph at lines 546--547
-[][][][][][][][][][][][][][][][][][][][] 
- []
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 682.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 691.
+ [33]
+("C:/Program Files/MiKTeX 2.9/tex/latex/listings/lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+<sfft_output.png, id=173, 878.53218pt x 469.00218pt>
+File: sfft_output.png Graphic file (type png)
+ <use sfft_output.png>
+Package pdftex.def Info: sfft_output.png used on input line 728.
+(pdftex.def)             Requested size: 341.43309pt x 182.2732pt.
 
-[29]
-Overfull \hbox (52.38649pt too wide) in paragraph at lines 548--550
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[30]
-Overfull \hbox (3.03658pt too wide) in paragraph at lines 567--568
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.18654pt too wide) in paragraph at lines 569--571
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (136.98634pt too wide) in paragraph at lines 571--572
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.18654pt too wide) in paragraph at lines 572--573
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (59.43648pt too wide) in paragraph at lines 574--575
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (31.23653pt too wide) in paragraph at lines 575--576
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (538.83565pt too wide) in paragraph at lines 578--579
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[31]
-Overfull \hbox (10.08656pt too wide) in paragraph at lines 592--593
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (3.03658pt too wide) in paragraph at lines 595--596
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.53645pt too wide) in paragraph at lines 597--599
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (66.48647pt too wide) in paragraph at lines 600--601
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (10.08656pt too wide) in paragraph at lines 606--608
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.53645pt too wide) in paragraph at lines 611--612
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (10.08656pt too wide) in paragraph at lines 615--616
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (45.3365pt too wide) in paragraph at lines 616--618
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (292.08607pt too wide) in paragraph at lines 621--622
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[32]
-Overfull \hbox (299.13606pt too wide) in paragraph at lines 630--631
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (17.13655pt too wide) in paragraph at lines 631--632
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[33] [34] [35] <eloc_vs_infiltec.png, id=161, 490.08093pt x 331.2375pt>
+[34] [35 <./sfft_output.png>] [36] [37] [38] [39]
+<eloc_vs_infiltec.png, id=193, 490.08093pt x 331.2375pt>
 File: eloc_vs_infiltec.png Graphic file (type png)
 
 <use eloc_vs_infiltec.png>
-Package pdftex.def Info: eloc_vs_infiltec.png used on input line 729.
+Package pdftex.def Info: eloc_vs_infiltec.png used on input line 870.
 (pdftex.def)             Requested size: 284.53131pt x 192.30994pt.
- [36]
-<eloc_vs_infiltec2.png, id=166, 449.42906pt x 261.22594pt>
+ [40]
+<eloc_vs_infiltec2.png, id=197, 449.42906pt x 261.22594pt>
 File: eloc_vs_infiltec2.png Graphic file (type png)
 
 <use eloc_vs_infiltec2.png>
-Package pdftex.def Info: eloc_vs_infiltec2.png used on input line 741.
+Package pdftex.def Info: eloc_vs_infiltec2.png used on input line 882.
 (pdftex.def)             Requested size: 284.54077pt x 165.38634pt.
- [37 <./eloc_vs_infiltec.png> <./eloc_vs_infiltec2.png>] <position3.png, id=172
-, 963.6pt x 722.7pt>
+ [41 <./eloc_vs_infiltec.png> <./eloc_vs_infiltec2.png>] <localizing_exp1_1.png
+, id=203, 233.37187pt x 163.3603pt>
+File: localizing_exp1_1.png Graphic file (type png)
+
+<use localizing_exp1_1.png>
+Package pdftex.def Info: localizing_exp1_1.png used on input line 899.
+(pdftex.def)             Requested size: 167.9857pt x 117.59439pt.
+
+<localizing_exp1_2.png, id=204, 232.61906pt x 173.89969pt>
+File: localizing_exp1_2.png Graphic file (type png)
+
+<use localizing_exp1_2.png>
+Package pdftex.def Info: localizing_exp1_2.png used on input line 905.
+(pdftex.def)             Requested size: 167.9857pt x 125.58446pt.
+ [42 <./localizing_exp1_1.png> <./localizing_exp1_2.png>] <position3.png, id=21
+1, 963.6pt x 722.7pt>
 File: position3.png Graphic file (type png)
  <use position3.png>
-Package pdftex.def Info: position3.png used on input line 785.
+Package pdftex.def Info: position3.png used on input line 948.
 (pdftex.def)             Requested size: 284.5242pt x 213.39314pt.
- [38]
-<position7.png, id=176, 963.6pt x 722.7pt>
+ [43]
+<position7.png, id=215, 963.6pt x 722.7pt>
 File: position7.png Graphic file (type png)
  <use position7.png>
-Package pdftex.def Info: position7.png used on input line 792.
+Package pdftex.def Info: position7.png used on input line 955.
 (pdftex.def)             Requested size: 284.5242pt x 213.39314pt.
 
-<map.png, id=177, 963.6pt x 722.7pt>
+<map.png, id=216, 963.6pt x 722.7pt>
 File: map.png Graphic file (type png)
  <use map.png>
-Package pdftex.def Info: map.png used on input line 802.
+Package pdftex.def Info: map.png used on input line 965.
 (pdftex.def)             Requested size: 398.328pt x 298.74599pt.
- [39 <./position3.png> <./position7.png>] [40 <./map.png>] <figure_1.png, id=18
-7, 578.16pt x 433.62pt>
-File: figure_1.png Graphic file (type png)
+ [44 <./position3.png> <./position7.png>] [45 <./map.png>] [46] <angle90.png, i
+d=229, 578.16pt x 433.62pt>
+File: angle90.png Graphic file (type png)
 
-<use figure_1.png>
-Package pdftex.def Info: figure_1.png used on input line 844.
+<use angle90.png>
+Package pdftex.def Info: angle90.png used on input line 1019.
 (pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
- <figure_20.png, id=188, 578.16pt x 433.62pt>
-File: figure_20.png Graphic file (type png)
-
-<use figure_20.png>
-Package pdftex.def Info: figure_20.png used on input line 849.
-(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
- <figure30.png, id=189, 578.16pt x 433.62pt>
-File: figure30.png Graphic file (type png)
-
-<use figure30.png>
-Package pdftex.def Info: figure30.png used on input line 857.
-(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
- <figure50.png, id=190, 578.16pt x 433.62pt>
-File: figure50.png Graphic file (type png)
-
-<use figure50.png>
-Package pdftex.def Info: figure50.png used on input line 862.
-(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
- <figure_60.png, id=191, 578.16pt x 433.62pt>
-File: figure_60.png Graphic file (type png)
-
-<use figure_60.png>
-Package pdftex.def Info: figure_60.png used on input line 870.
+ <angle80.png, id=230, 578.16pt x 433.62pt>
+File: angle80.png Graphic file (type png)
+ <use angle80.png>
+Package pdftex.def Info: angle80.png used on input line 1029.
 (pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
 
-Underfull \hbox (badness 3168) in paragraph at lines 871--871
-[][]\OT1/cmr/m/n/12 Fig-ure 5.10: 60 de-gree his-
+<angle70.png, id=231, 578.16pt x 433.62pt>
+File: angle70.png Graphic file (type png)
+ <use angle70.png>
+Package pdftex.def Info: angle70.png used on input line 1042.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+
+<angle60.png, id=232, 578.16pt x 433.62pt>
+File: angle60.png Graphic file (type png)
+ <use angle60.png>
+Package pdftex.def Info: angle60.png used on input line 1051.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+
+<angle50.png, id=233, 578.16pt x 433.62pt>
+File: angle50.png Graphic file (type png)
+ <use angle50.png>
+Package pdftex.def Info: angle50.png used on input line 1062.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+
+<angle40.png, id=234, 578.16pt x 433.62pt>
+File: angle40.png Graphic file (type png)
+ <use angle40.png>
+Package pdftex.def Info: angle40.png used on input line 1071.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+
+<angle30.png, id=235, 578.16pt x 433.62pt>
+File: angle30.png Graphic file (type png)
+ <use angle30.png>
+Package pdftex.def Info: angle30.png used on input line 1082.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+
+<angle20.png, id=236, 578.16pt x 433.62pt>
+File: angle20.png Graphic file (type png)
+ <use angle20.png>
+Package pdftex.def Info: angle20.png used on input line 1091.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+ [47 <./angle90.png> <./angle80.png> <./angle70.png> <./angle60.png>]
+<angle10.png, id=244, 578.16pt x 433.62pt>
+File: angle10.png Graphic file (type png)
+ <use angle10.png>
+Package pdftex.def Info: angle10.png used on input line 1102.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+
+<angle0.png, id=245, 578.16pt x 433.62pt>
+File: angle0.png Graphic file (type png)
+ <use angle0.png>
+Package pdftex.def Info: angle0.png used on input line 1111.
+(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
+ [48 <./angle50.png> <./angle40.png> <./angle30.png> <./angle20.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
+[][]|\OT1/cmr/bx/n/12 Es-ti-mated
  []
 
-<figure_70.png, id=192, 578.16pt x 433.62pt>
-File: figure_70.png Graphic file (type png)
- <use figure_70.png>
-Package pdftex.def Info: figure_70.png used on input line 875.
-(pdftex.def)             Requested size: 167.98251pt x 125.98477pt.
- [41 <./figure_1.png> <./figure_20.png> <./figure30.png> <./figure50.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 887--887
-[][]|\OT1/cmr/bx/n/12 Cal-cu-lated
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 887--887
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
 [][]|\OT1/cmr/bx/n/12 Win-dow
  []
 
-[42 <./figure_60.png> <./figure_70.png>]
-<44100.png, id=205, 722.7pt x 363.60844pt>
-File: 44100.png Graphic file (type png)
- <use 44100.png>
-Package pdftex.def Info: 44100.png used on input line 925.
-(pdftex.def)             Requested size: 398.33534pt x 200.41246pt.
-
-<200.png, id=206, 722.7pt x 361.35pt>
-File: 200.png Graphic file (type png)
- <use 200.png>
-Package pdftex.def Info: 200.png used on input line 934.
-(pdftex.def)             Requested size: 398.33534pt x 199.16766pt.
- [43 <./44100.png>] [44 <./200.png>] <error_angles.png, id=215, 456.20438pt x 3
-23.70938pt>
+<error_angles.png, id=253, 456.20438pt x 323.70938pt>
 File: error_angles.png Graphic file (type png)
-
-<use error_angles.png>
-Package pdftex.def Info: error_angles.png used on input line 968.
+ <use error_angles.png>
+Package pdftex.def Info: error_angles.png used on input line 1159.
 (pdftex.def)             Requested size: 284.53532pt x 201.89801pt.
- [45 <./error_angles.png>]
-<wild_recordings.png, id=220, 386.94562pt x 390.70969pt>
+
+[49 <./angle10.png> <./angle0.png>] [50 <./error_angles.png>]
+<Kalawewa1.jpg, id=263, 3276.24pt x 2457.18pt>
+File: Kalawewa1.jpg Graphic file (type jpg)
+ <use Kalawewa1.jpg>
+Package pdftex.def Info: Kalawewa1.jpg used on input line 1181.
+(pdftex.def)             Requested size: 167.9857pt x 125.97815pt.
+
+<Kalawewa2.jpg, id=264, 3276.24pt x 2457.18pt>
+File: Kalawewa2.jpg Graphic file (type jpg)
+ <use Kalawewa2.jpg>
+Package pdftex.def Info: Kalawewa2.jpg used on input line 1187.
+(pdftex.def)             Requested size: 167.9857pt x 125.97815pt.
+
+<Kalawewa4.jpg, id=265, 1541.76pt x 727.21687pt>
+File: Kalawewa4.jpg Graphic file (type jpg)
+ <use Kalawewa4.jpg>
+Package pdftex.def Info: Kalawewa4.jpg used on input line 1199.
+(pdftex.def)             Requested size: 167.9857pt x 79.22844pt.
+
+<Kalawewa5.jpg, id=266, 1541.76pt x 903.375pt>
+File: Kalawewa5.jpg Graphic file (type jpg)
+ <use Kalawewa5.jpg>
+Package pdftex.def Info: Kalawewa5.jpg used on input line 1205.
+(pdftex.def)             Requested size: 167.9857pt x 98.42043pt.
+ [51 <./Kalawewa1.jpg> <./Kalawewa2.jpg>]
+<wild_recordings.png, id=270, 386.94562pt x 390.70969pt>
 File: wild_recordings.png Graphic file (type png)
 
 <use wild_recordings.png>
-Package pdftex.def Info: wild_recordings.png used on input line 1004.
+Package pdftex.def Info: wild_recordings.png used on input line 1225.
 (pdftex.def)             Requested size: 284.52855pt x 287.29634pt.
- [46 <./wild_recordings.png>] [47] [48]
-Underfull \hbox (badness 2213) in paragraph at lines 1036--1037
-[][]\OT1/cmr/m/n/12 “In-fra-sonic Sound", Hy-per-physics.phy-astr.gsu.edu, 20
-16. [On-line]. Avail-
+ [52 <./Kalawewa4.jpg> <./Kalawewa5.jpg>]
+<44100.png, id=275, 722.7pt x 363.60844pt>
+File: 44100.png Graphic file (type png)
+ <use 44100.png>
+Package pdftex.def Info: 44100.png used on input line 1244.
+(pdftex.def)             Requested size: 398.33534pt x 200.41246pt.
+ [53 <./wild_recordings.png>] <200.png, id=280, 722.7pt x 361.35pt>
+File: 200.png Graphic file (type png)
+ <use 200.png>
+Package pdftex.def Info: 200.png used on input line 1253.
+(pdftex.def)             Requested size: 398.33534pt x 199.16766pt.
+ [54 <./44100.png> <./200.png>] <yalascene.png, id=286, 575.90157pt x 368.1253p
+t>
+File: yalascene.png Graphic file (type png)
+
+<use yalascene.png>
+Package pdftex.def Info: yalascene.png used on input line 1266.
+(pdftex.def)             Requested size: 398.34793pt x 254.63023pt.
+ [55 <./yalascene.png>] [56]
+<rumble_spectro.png, id=294, 388.45125pt x 307.90031pt>
+File: rumble_spectro.png Graphic file (type png)
+
+<use rumble_spectro.png>
+Package pdftex.def Info: rumble_spectro.png used on input line 1331.
+(pdftex.def)             Requested size: 167.9857pt x 133.15565pt.
+ <rumble_sfft.png, id=295, 418.56375pt x 311.66437pt>
+File: rumble_sfft.png Graphic file (type png)
+
+<use rumble_sfft.png>
+Package pdftex.def Info: rumble_sfft.png used on input line 1337.
+(pdftex.def)             Requested size: 167.9857pt x 125.08203pt.
+ [57 <./rumble_spectro.png> <./rumble_sfft.png>] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1389
+[][]|\OT1/cmr/bx/n/12 Clas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
-\OT1/cmr/m/n/12 able: http://hy-per-physics.phy-astr.gsu.edu/h-base/-sound/in-f
-ra-sound.html.
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1389
+\OT1/cmr/bx/n/12 si-fied
  []
 
-[49]
-Underfull \hbox (badness 4505) in paragraph at lines 1044--1045
+
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1390
+[][]|\OT1/cmr/bx/n/12 Real
+ []
+
+
+Overfull \vbox (8.04135pt too high) has occurred while \output is active []
+
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1425
+[][]|\OT1/cmr/bx/n/12 Clas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1425
+\OT1/cmr/bx/n/12 si-fied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
+[][]|\OT1/cmr/bx/n/12 Real
+ []
+
+[60] [61] [62] [63] [64] [65] [66] [67]
+Underfull \hbox (badness 1320) in paragraph at lines 1609--1610
+[][]\OT1/cmr/m/n/12 MU-SIC Al-go-rithm", Ptolemy.eecs.berke-ley.edu, 2016. [On-
+line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 1609--1610
 \OT1/cmr/m/n/12 http://p-tolemy.eecs.berke-ley.edu/-pa-pers/96/dtmf[]ict/www/no
 de5.html. [Ac-
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 1047--1048
+Underfull \hbox (badness 3281) in paragraph at lines 1611--1612
+[][]\OT1/cmr/m/n/12 “In-fra-sonic Sound", Hy-per-physics.phyastr.gsu.edu, 201
+6. [On-line]. Avail-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1612
+\OT1/cmr/m/n/12 able: http://hy-per-physics.phy-astr.gsu.edu/h-base/-sound/in-f
+ra-sound.html.
+ []
+
+[68]
+Underfull \hbox (badness 1681) in paragraph at lines 1614--1615
 [][]\OT1/cmr/m/n/12 Pana-sonic Cor-po-ra-tion. Pana-sonic Om-ni-di-rec-tional B
 ack Elec-tret Con-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1048--1049
+Underfull \hbox (badness 1735) in paragraph at lines 1615--1616
 [][]\OT1/cmr/m/n/12 "LM358 | Gen-eral Pur-pose Am-pli-fier | Op-er-a-tional Am-
 pli-fier (Op
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1069
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 1643--1645
 [][]\OT1/cmr/m/n/12 Sasha De-vore,An-tje Ih-le-feld,Ken-neth Han-cock,Bar-bara 
 Shinn-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 1070--1071
+Underfull \hbox (badness 2990) in paragraph at lines 1645--1646
 [][]\OT1/cmr/m/n/12 In-fil-tec Model INFRA-20 the in-ex-pen-sive in-fra-sound m
 on-i-tor de-vice.
  []
 
-[51] [52] (./Thesis.aux)
+[70] [71]
+Underfull \hbox (badness 4341) in paragraph at lines 1659--1660
+[][]\OT1/cmr/m/n/12 Ma-chine Learn-ing Mas-tery. 2016. A Gen-tle In-tro-duc-tio
+n to Scikit-
+ []
+
+[72] (./Thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  )
 
 Here is how much of LuaTeX's memory you used:
- 4462 strings out of 494733
- 100000,154059 words of node,token memory allocated
- 486 words of node memory still in use:
+ 6614 strings out of 494733
+ 195337,221844 words of node,token memory allocated
+ 626 words of node memory still in use:
     nodes
-   avail lists: 1:1,2:21,3:236,4:1875,5:440,6:2699,7:227,9:1171,10:280
- 7907 multiletter control sequences out of 65536+200000
- 37 fonts using 1465939 bytes
- 34i,11n,32p,1607b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
+   avail lists: 2:22,3:360,4:9639,5:3366,6:3133,7:4724,9:7294,10:547
+ 9952 multiletter control sequences out of 65536+200000
+ 52 fonts using 2054951 bytes
+ 36i,12n,42p,1601b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on Thesis.pdf (57 pages, 5107795 bytes).
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis.pdf (81 pages, 12118855 bytes).
 
-PDF statistics: 267 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 384 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

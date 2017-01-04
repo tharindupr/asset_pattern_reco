@@ -1,0 +1,35 @@
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Attenuation of sound at difference frequencies}}{4}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Infiltec INFRA-20 device\relax }}{12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Circuit diagram on an Elocate node}}{13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sine wave in a the time domain\relax }}{16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Correlation process\relax }}{17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Localization scenario}}{19}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Process of calculating the location of an elephan}}{21}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Overview of the feature extraction.\relax }}{25}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Rumbles with different interfering noise sources.\relax }}{28}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Implementation of an Elocate node}}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Output of the SFT\relax }}{35}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sensitivity comparison of the microphones}}{41}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sensitivity variation of the microphones with distance.}}{41}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Localizing experiment 01 setup\relax }}{42}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces FFT at position 3\relax }}{44}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces FFT at position 7\relax }}{44}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Recording locations\relax }}{45}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Estimation at angle 90 degrees}}{47}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimation at angle 80 degrees}}{47}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Estimation at angle 70 degrees}}{47}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Estimation at angle 60 degrees}}{47}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Estimation at angle 50 degrees}}{48}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Estimation at angle 40 degrees}}{48}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Estimation at angle 30 degrees}}{48}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Estimation at angle 20 degrees}}{48}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Estimation at angle 10 degrees}}{49}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Estimation at angle 0 degrees}}{49}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Accuracy of calculating the direction to an infrasonic source using a pair of Eloc nodes.}}{50}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Images of the devices while recording\relax }}{51}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Images of the activities done by elephants\relax }}{52}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Waveform and spectrogram of a recording}}{53}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Spectogram of the signal under 44100 sample rate\relax }}{54}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Spectogram of the signal under 200 sample rate\relax }}{54}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces A recording scenario at Yala}}{55}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Spectrogram and the frequency distribution of a random rumble in the data set.}}{57}
