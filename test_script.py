@@ -14,7 +14,13 @@ negative=listdir('Testing/Negative')
 
 
 print "\n\nTesting positive set\n\n"
+for i in positive:
+    arr= test('Testing/Positive/'+i)
+    print ""+i[-9:]+ " : "+ str(arr)
+
+
+
+print "\n\nTesting Negative set\n\n"
 for i in negative:
     arr= test('Testing/Negative/'+i)
-    print "\\bf {"+i[-9:]+"} &  {\\bf{"+str(arr)+"}} &  {\\bf{0}} &  {\\bf{0}} \\\\ \\hline"
-
+    print ""+i[-9:]+ " : "+ str(arr)

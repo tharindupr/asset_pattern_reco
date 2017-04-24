@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.9.8)  3 JAN 2017 09:57
+This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.9.8)  24 APR 2017 20:08
 **Thesis.tex
 (./Thesis.tex
 LaTeX2e <2014/05/01>
@@ -744,26 +744,26 @@ Package pdftex.def Info: yalascene.png used on input line 1266.
 File: rumble_spectro.png Graphic file (type png)
 
 <use rumble_spectro.png>
-Package pdftex.def Info: rumble_spectro.png used on input line 1331.
+Package pdftex.def Info: rumble_spectro.png used on input line 1332.
 (pdftex.def)             Requested size: 167.9857pt x 133.15565pt.
  <rumble_sfft.png, id=295, 418.56375pt x 311.66437pt>
 File: rumble_sfft.png Graphic file (type png)
 
 <use rumble_sfft.png>
-Package pdftex.def Info: rumble_sfft.png used on input line 1337.
+Package pdftex.def Info: rumble_sfft.png used on input line 1338.
 (pdftex.def)             Requested size: 167.9857pt x 125.08203pt.
  [57 <./rumble_spectro.png> <./rumble_sfft.png>] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1389
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
 [][]|\OT1/cmr/bx/n/12 Clas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1389
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
 \OT1/cmr/bx/n/12 si-fied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
 [][]|\OT1/cmr/bx/n/12 Real
  []
 
@@ -772,70 +772,70 @@ Overfull \vbox (8.04135pt too high) has occurred while \output is active []
 
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1425
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
 [][]|\OT1/cmr/bx/n/12 Clas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1425
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
 \OT1/cmr/bx/n/12 si-fied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1427
 [][]|\OT1/cmr/bx/n/12 Real
  []
 
 [60] [61] [62] [63] [64] [65] [66] [67]
-Underfull \hbox (badness 1320) in paragraph at lines 1609--1610
+Underfull \hbox (badness 1320) in paragraph at lines 1610--1611
 [][]\OT1/cmr/m/n/12 MU-SIC Al-go-rithm", Ptolemy.eecs.berke-ley.edu, 2016. [On-
 line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 1609--1610
+Underfull \hbox (badness 4505) in paragraph at lines 1610--1611
 \OT1/cmr/m/n/12 http://p-tolemy.eecs.berke-ley.edu/-pa-pers/96/dtmf[]ict/www/no
 de5.html. [Ac-
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 1611--1612
+Underfull \hbox (badness 3281) in paragraph at lines 1612--1613
 [][]\OT1/cmr/m/n/12 “In-fra-sonic Sound", Hy-per-physics.phyastr.gsu.edu, 201
 6. [On-line]. Avail-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1611--1612
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1613
 \OT1/cmr/m/n/12 able: http://hy-per-physics.phy-astr.gsu.edu/h-base/-sound/in-f
 ra-sound.html.
  []
 
 [68]
-Underfull \hbox (badness 1681) in paragraph at lines 1614--1615
+Underfull \hbox (badness 1681) in paragraph at lines 1615--1616
 [][]\OT1/cmr/m/n/12 Pana-sonic Cor-po-ra-tion. Pana-sonic Om-ni-di-rec-tional B
 ack Elec-tret Con-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1615--1616
+Underfull \hbox (badness 1735) in paragraph at lines 1616--1617
 [][]\OT1/cmr/m/n/12 "LM358 | Gen-eral Pur-pose Am-pli-fier | Op-er-a-tional Am-
 pli-fier (Op
  []
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 1643--1645
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1646
 [][]\OT1/cmr/m/n/12 Sasha De-vore,An-tje Ih-le-feld,Ken-neth Han-cock,Bar-bara 
 Shinn-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 1645--1646
+Underfull \hbox (badness 2990) in paragraph at lines 1646--1647
 [][]\OT1/cmr/m/n/12 In-fil-tec Model INFRA-20 the in-ex-pen-sive in-fra-sound m
 on-i-tor de-vice.
  []
 
 [70] [71]
-Underfull \hbox (badness 4341) in paragraph at lines 1659--1660
+Underfull \hbox (badness 4341) in paragraph at lines 1660--1661
 [][]\OT1/cmr/m/n/12 Ma-chine Learn-ing Mas-tery. 2016. A Gen-tle In-tro-duc-tio
 n to Scikit-
  []
@@ -865,7 +865,7 @@ cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (81 pages, 12118855 bytes).
+Output written on Thesis.pdf (81 pages, 12118751 bytes).
 
 PDF statistics: 384 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
